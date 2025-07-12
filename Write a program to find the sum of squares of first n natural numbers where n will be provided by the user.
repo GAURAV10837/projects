@@ -1,0 +1,7 @@
+n = int(input("enter number: "))
+
+print(" first n natural numbers where n : ",sum(i**2 for i in range(1,n+1)))
+
+#output
+# enter number: 3
+# first n natural numbers where n :  14
