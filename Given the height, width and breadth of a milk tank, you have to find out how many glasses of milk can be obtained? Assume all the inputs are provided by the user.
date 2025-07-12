@@ -1,0 +1,15 @@
+#h , l , b are in centimeter
+
+h = int(input("height of glass: "))
+l = int(input("length of glass: "))
+b = int(input("breadth of glass: "))
+glass_volume = 250 #in centimeter
+tank_volume = h * l * b
+number_of_glasses = tank_volume // glass_volume
+print("number of glasses are : ",number_of_glasses)
+
+#output 
+#height of glass: 50
+#length of glass: 40
+#breadth of glass: 30
+#number of glasses are :  240
