@@ -1,0 +1,18 @@
+#an represents the nth term
+#a represents the first term
+#n represents the term number
+#d represents the common difference between consecutive terms.
+
+a = int(input("enter 1st term: "))
+a2 = int(input("enter 2nd term: "))
+n = int(input("enter term number to find: "))
+d = (a2 - a)
+an = a + (n-1)*d
+print("the ",n,"th term of the series is: ",an)
+
+#output
+#enter 1st term: 2
+#enter 2nd term: 5
+#enter term number to find: 4
+#the  4 th term of the series is:  11
+
