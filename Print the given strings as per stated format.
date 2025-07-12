@@ -1,0 +1,8 @@
+#**Given strings**:  "Data" "Science" "Mentorship" "Program" "By" 
+
+
+print("Data","Science","Mentorship","Program","By",sep = "-")
+
+
+**Output**:  Data-Science-Mentorship-Program-started-By
+
