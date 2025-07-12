@@ -1,0 +1,19 @@
+heads = int(input("enter number of heads: "))
+legs = int(input("enter number of legs: "))
+found = False    #	Assume no solution at start
+for dogs in range(heads + 1):
+  #heads = chickens + dogs
+  chickens = heads - dogs 
+  if 2*chickens + 4*dogs == legs:
+    print("chickens: ",chickens)
+    print("dogs: ",dogs)
+    found = True  #	We found a correct combo
+    break
+if not found:  #	If still no match, print “no solution”
+   print("no soltion found")
+
+#output
+#enter number of heads: 10
+#enter number of legs: 28
+#chickens:  6
+#dogs:  4
