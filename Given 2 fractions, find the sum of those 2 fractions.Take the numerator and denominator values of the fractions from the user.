@@ -1,0 +1,16 @@
+a =int(input("numerator of 1st fraction "))
+b =int(input("denominator of 1st fraction "))
+c =int(input("numerator of 2nd fraction "))
+d=int(input("denominator of 2nd fraction "))
+num = (a*d)+(c*b)
+dem = c * d
+print("numerator is :",num,"\n_________3\ndenominator is :",dem)
+
+#output
+#numerator of 1st fraction 1
+#denominator of 1st fraction 2
+#numerator of 2nd fraction 3
+#denominator of 2nd fraction 4
+#numerator is : 10 
+#_________
+#denominator is : 12
