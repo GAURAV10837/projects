@@ -1,0 +1,14 @@
+a = int(input("enter value  of a "))
+b = int(input("enter value  of b "))
+#important
+temp = a
+a = b
+b = temp
+print("value of a:",a,"\nvalue of b:",b)
+
+
+#output
+#enter value  of a 5
+#enter value  of b 6
+#value of a: 6 
+#value of b: 5
