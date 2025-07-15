@@ -1,0 +1,25 @@
+# login program and indentation
+# email ->random123@gmail.com
+# password -> 1234
+
+email = input("enter email")
+password = input("enter password")
+
+if email =='random123@gmail.com' and password == '1234':
+  print("Welcome")
+elif email =='random123@gmail.com' and password != '1234':
+  print("incorrect password")
+  password = input("enter password again")
+  if password == "1234":
+    print("Welcome")
+  else:
+    print("bhai password wrong hai")
+else:
+  print("error")
+
+#------------output--------------
+#enter emailrandom123@gmail.com
+#enter password 3212
+#incorrect password 1233
+#enter password again 2223
+#bhai password wrong hai
